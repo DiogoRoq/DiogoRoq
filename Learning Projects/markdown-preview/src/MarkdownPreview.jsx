@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import './App.css'
+import './Markdown.css'
 import { marked } from 'marked'
 
-function App() {
+function MarkdownPreview() {
   const [markdown, setMarkdown] = useState(`
   # H1
   ## H2
@@ -46,4 +46,4 @@ function App() {
   );
 }
 
-export default App
+export default MarkdownPreview
