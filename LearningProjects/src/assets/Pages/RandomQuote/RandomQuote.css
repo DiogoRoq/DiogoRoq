@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
-    margin-top: 250px;
+    margin: 0px;
+    margin-left: 100px;
+    margin-bottom: 100px;
     background: #625ac4;
     width: 800px;
     border-radius: 15px;
@@ -16,12 +17,14 @@
     font-size: 28px;
     text-align: center;
     margin: 0;
+    background: #625ac4;
+    border-radius: 15px;
 }
 .author {
     color: white;
     font-size: 20px;
     font-weight: 500px;
-    
+    background: #625ac4;    
     flex-direction: flex-end;
     justify-content: flex-end;
 }
@@ -41,6 +44,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     margin-top: 0px;
+    background: #625ac4;
 
 }
 .icons img{
@@ -48,5 +52,6 @@
     height: 36px;
     margin-bottom:30px;
     margin-right: 15px;
+    background: #625ac4;
     
 }

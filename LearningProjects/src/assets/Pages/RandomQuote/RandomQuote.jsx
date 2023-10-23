@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import './RandomQuote.css'
-import twitter_icon from '../Assets/twitter.png'
-import reload_icon from '../Assets/reload.png'
+import reload_icon from './images/reload.png'
+import twitter_icon from './images/twitter.png'
 
 const RandomQuote = () => {
   const [quoteList, setQuoteList] = useState([])
